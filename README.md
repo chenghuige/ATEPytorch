@@ -1,6 +1,6 @@
-# AET(Aspect Extraction Task) Experiments with Pytorch
+# ATE(Aspect Term Extraction) Experiments with Pytorch
 
-1. a rather simple implementation of ABAE(ACL-2017-An Unsupervised Neural Attention Model for Aspect Extraction) model with Pytorch platform.
+1. A rather simple implementation of ABAE(ACL-2017-An Unsupervised Neural Attention Model for Aspect Extraction) model with Pytorch platform.
 
 ## Environment
 
@@ -28,7 +28,7 @@ Staff,The staff is n't the friendliest or most competent , and I am stickler for
 
 ## Results
 
-1. ABAE
+1. ABAE (ACL-2017-An Unsupervised Neural Attention Model for Aspect Extraction)
 
 ```text
 >>> aspect words (top 20)
@@ -47,3 +47,5 @@ Staff,The staff is n't the friendliest or most competent , and I am stickler for
 	-aspect13: sheraton | marriott | restaurant | eatery | bistro | hyatt | tavern | waterfront | residence | chinatown | terrace | astoria | manhattan | marriot | midtown | courtyard | headquarters | resturant | soho | hotel |
 	-aspect14: knowledgeable | highly | compassionate | competent | attentive | intuitive | imaginative | enthusiastic | expansive | insightful | articulate | indicative | intellect | regarded | knowledgable | rational | hugely | compelling | impactful | immensely |
 ```
+
+2. CMLA (AAAI-2017-Coupled Multi-Layer Attentions for Co-Extraction of Aspect and Opinion Terms)

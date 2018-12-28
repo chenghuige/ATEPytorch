@@ -44,3 +44,14 @@ class Attention(nn.Module):
         output = torch.matmul(score.unsqueeze(dim=1), value).squeeze(dim=1)  # [batch_size, v_dim]
 
         return score, output
+
+
+class MultiHeadAttention(nn.Module):
+
+    def __init__(self):
+
+        super(MultiHeadAttention, self).__init__()
+
+    def forward(self, *input):
+        pass
+
